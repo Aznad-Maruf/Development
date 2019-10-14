@@ -1,0 +1,208 @@
+/* This means everything. Every margins/ styles ect. Overrides default padding/margins/colors etc */
+/*
+*{
+	margin: 0;
+	padding: 0;
+}
+*/
+
+body{
+	background-color: #f4f4f4;/*Default background*/
+	color: #000; /*Default font color*/
+	font-family:  Comic Sans MS, Times New Roman, Times, Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+
+/*Shortcut for font (all in one)*/
+	font: 22px normal Arial, Helvetica;
+
+	line-height: 1.35em;
+	margin: 0;
+
+}
+
+/*This will apply to any a in page */
+a{
+	text-decoration: none;
+	color: #000;
+}
+/*If hover mouse */
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+a:visited{
+
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.button{
+	background-color: #993;
+	color: #fff;
+	padding: 5px;
+
+}
+.button:hover{
+	background-color: blue;
+	color: #fff;
+}
+
+.clr{
+	clear: both;
+}
+
+.box1{
+	/*
+	Border (outside area )
+	Padding ( inside area )	
+	Margin ( Outside empty space )
+	*/
+	background-color: #333; 
+	color: #fff; /*Tall text color*/
+	border-right: red solid 5px;
+	border-left:  red 9px solid;
+	border-top: red solid 5px;
+	border-bottom: blue solid 5px;
+	border: 10px red solid; /*(same as above)*/
+	border-width: 10px 20px 30px 35px; /*top,right,bottom,left*/
+	border-width: 10px 20px;/*top&bottom, right&left*/
+	
+	padding-top: 20px;
+	padding: 20px; /*All side*/
+	
+}
+
+/*This will affect all h1 of box1 class*/
+.box1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	color: #587;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.box2{
+	border: 9px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0px;
+	background-color: rgb(200,100,0);
+
+}
+.box2 p{
+	color: #fff;
+}
+
+.categories{
+	border: 1px #ccc solid;
+	padding-left: 10px;
+	border-radius: 20px; /*rounded corner*/
+	margin: 5px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+
+
+.categories li{
+	padding-bottom: 8px;
+	border-bottom: dotted 1px #333;
+
+	list-style-image: url('Images/check2.png');
+}
+
+.myForm{
+	padding: 20px;
+}
+.myForm .formGroup{
+	padding-bottom: 10px;
+}
+
+.myForm label{
+	display: block;
+}
+
+.myForm input[type="text"],input[type="email"], .myForm textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.block{
+	float: right;
+	border: 1px solid #333;
+	padding: 10px;
+	width: 33.3%;
+	box-sizing: border-box;/*Adds padding and width and then applys to width.*/
+}
+
+#mainBlock{
+	float: left;
+	width: 70%;
+	border: 5px solid #233;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#sideBar{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.pBox{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #333;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	position: relative;
+	background-image: url("Images/bg2.jpg");
+	/*No repeat bg*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 800px;
+}
+
+.pBox h1{
+	position: absolute;
+	top: 40px;
+}
+
+.pBox h2{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
+
+.fixMe{
+	position: fixed; /*Fixed in the page*/
+	top: 200px;
+}
+
+.myList li:first-child{
+	background: red;
+}
+.myList li:last-child{
+	background: blue;
+}
+/* terget Nth child*/
+.myList li:nth-child(1){
+	background: green;
+}
+/*All even child*/
+.myList li:nth-child(even){
+	background: pink;
+}

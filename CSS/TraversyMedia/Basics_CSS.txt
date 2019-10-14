@@ -1,0 +1,13 @@
+## Basics -->
+	* Don't use Inline or Internal Use External CSS file.
+	* Use class instread of ID . Use ID only when there is no chance to reuse that style anywhere else.
+	* To use fonts search "web safe fonts"
+	* background-color: #f4f4f4;/*Default background*/
+	color: rgb(200,0,100); /*Default font color*/
+	font-family:  Comic Sans MS, Times New Roman, Times, Helvetica;
+	font-size: 20px;
+	font-weight: bold;
+	* /*Shortcut for font (all in one)*/
+	font: 22px normal Arial, Helvetica;
+
+	line-height: 1.35em;

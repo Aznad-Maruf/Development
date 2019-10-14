@@ -1,0 +1,39 @@
+.wrapper{
+    background-color: azure;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.wrapper > div{
+    border: 1px solid black;
+    padding: .5em;
+}
+
+.wrapper > div:nth-child(odd){
+    background-color: bisque;
+}
+
+.wrapper > div:nth-child(even){
+    background-color: aquamarine;
+}
+
+.box1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.box2{
+    grid-row: 1/4;
+    grid-column: 3/4;
+
+}
+.box6{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}

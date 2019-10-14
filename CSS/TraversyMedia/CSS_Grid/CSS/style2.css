@@ -1,0 +1,61 @@
+.wrapper{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-gap: .5em;
+    /* grid-template-columns: 70% 30%; */
+    /* grid-template-columns: 7fr 3fr;  */
+    /* use fr instead of %*/
+
+    grid-template-columns: repeat(3, 1fr);
+    /* makes all cell of same height */
+    grid-auto-rows: 150px;
+    /* min of 100px max is auto */
+    grid-auto-rows: minmax(100px, auto);
+
+    margin-top: 20px;
+}
+
+.wrapper > div{
+    padding: .5em;
+    text-align: center center;
+    border: 1px black solid;
+}
+.wrapper > div:nth-child(even){
+    background-color: #eee;
+}
+.wrapper > div:nth-child(odd){
+    background-color:#ddd;
+}
+
+.nested1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+    grid-gap: .5em;
+
+}
+
+.nested1 > div{
+    border: 1px solid black;
+    padding: .5em;
+
+}
+
+/* .nested1{
+    background-color:violet;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .5em;
+    grid-auto-rows: 50px;
+
+}
+.nested1 > div{
+    border: 2px, solid, pink;
+    padding: .5em;
+}
+
+.nested1 div:nth-child(odd){
+    background: red;
+    border: 1px solid, #555;
+} */

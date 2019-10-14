@@ -1,0 +1,98 @@
+body{
+	background-color: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0px;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	/*no scrollbar even goes outside*/
+	overflow: hidden;
+}
+
+.clr{
+	clear: both;
+}
+
+#mainHeader {
+	background-color: coral;
+	color: #fff;
+}
+
+#navBar{
+	background-color: #333;
+	color: #fff;
+}
+
+#navBar li{
+	display: inline;
+}
+
+#navBar ul{
+	padding: 0px;
+	list-style: none;
+}
+
+#navBar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 22px;
+	padding-right: 15px;
+}
+
+#showcase{
+	background-image: url("../Images/bg.jpg");
+	background-position: center right;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sideBar{
+	float: right;
+	width: 30%;
+	color: #fff;
+	background: #333;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#mainFooter{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+/*media query will be effective under 600px*/
+/*@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#main{
+		width: 100%;
+		float: none;
+	}
+
+}*/
+

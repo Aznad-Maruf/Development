@@ -1,0 +1,46 @@
+1. git init 
+	initializes, makes current folder the master folder.
+2. git config --global user.name 'Maruf 	Robin'
+3. git config --global user.email '***.gmail.com'
+4. git add index.html
+	add the file( ready to commit )
+	- git add *.html
+	will add all html
+	- git add .
+	will add all
+5. git status
+	see which are added and which are not.
+6. git rm --cached index.html
+	remove that are added.
+7. git commit -m 'changed index.html'
+8. .gitignore
+	files/forders in this will not be added
+	log.txt ( will ignore that file )
+	*.txt ( will ignore all txt file )
+	fauFolder/ ( will ignore all files in that folder )
+9.  First time
+	git remote add origin https://github.com/Maruf-Robin/Fau.git
+	git push -u origin master
+	All the rest -
+	git push ( after add & commit )
+	
+10. git clone https://github.com/Maruf-Robin/Fau.git 
+	( open git bash in the folder you want to clone )
+	git pull ( go to that folder first )
+	( make all up-to-date )
+
+11. Create new branch
+(after remote add origin)
+git checkout -b branchName
+git push origin branchName
+
+
+
+
+
+
+
+
+
+
+

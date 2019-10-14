@@ -1,0 +1,19 @@
+.wrapper{
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: 70% 30%;
+  /* grid-column-gap: .5em;
+  grid-row-gap: .5em; */
+  grid-gap: .5em; /*works for both row and column*/
+}
+
+.wrapper div{
+  background: #eee;
+  padding: 1em;
+  border: 10px solid rgb(92, 128, 128);
+}
+
+.wrapper div:nth-child(odd){
+  background: #FAEBD7;
+}

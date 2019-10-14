@@ -1,0 +1,73 @@
+#General---->
+
+index.html - root/home page of a website. 
+	www.something.com loads the index.html file
+about.html - www.something.com/about.html
+
+Ctrl+u - on the website will show the html
+
+<!DOCTYPE html> -> tells it's html 5. ( first line )
+<html> content </html> -> all will be inside this.
+
+..Comment shortcut Ctrl+Shift+/
+..Duplicate shortcut Ctrl+Shift+d
+
+#Head ---->
+
+	<h1> Goes the most important header </h1>
+	<h2> Goes the 2nd most important header </h2>
+	h1 to h6 is possible. based on important.
+#Body ---->
+
+1. <b> bold it </b>
+2. <u> underline </u>
+3. <i> italic </i>
+4. <p> paragraph </p>
+5. <em> emphasize </em> // emphasize on it. same 	as italic just means to emphasize.
+6. <sub> Subscript </sub> e.g. H<sub>2</sub>O
+7. <sup> Superscript </sup> e.g. 2<sup>2</sup> = 4
+8. <del> cut the line in middle </del> e.g. Price 	is : <del>100</del> 75 tk
+9. Hyper link - 
+	<a href="https://google.com/">Google</a>
+	new tab -
+	<a href="https://www.google.com/" target="_blank">Google</a>
+
+10. comment -
+	<!-- Comment goes here 
+	can be multi line also -->
+11. <strong> bold by default </strong>
+12. list -->
+	unordered list - ( bullet point )
+	ordered list - <ol></ol>
+	<ul>
+		<li>Item 1</li>
+		<li>Item 2</li>
+		<li>Item 3</li>
+		<li>Item 1</li>
+	</ul>
+13. Table -->
+<table>
+	<thead> // Table head
+		<th>Name</th> // table header(column name)
+		<th>Mail</th>
+		<th>ID</th>
+	</thead>
+
+	<tbody> // table body
+		<tr> // table row
+			<td>Maruf</td> // table data
+			<td>maru@gmail.com</td>
+			<td>163002009</td>
+		</tr>
+		<tr>
+			<td>KK</td>
+			<td>KK@gmail.com</td>
+			<td>163002013</td>
+		</tr>
+	</tbody>
+</table>
+14. Line Break ->
+	<br>
+15. Horizontal rule ->
+	a horizontal line through the page
+16. <abbr title="World Wide Web">WWW</abbr> is amazing!.
