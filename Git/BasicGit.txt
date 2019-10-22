@@ -34,7 +34,8 @@
 git checkout -b branchName
 git push origin branchName
 
-
+12. Remove account from Git Bash
+	Credential Manager -> Windows Credential.
 
 
 
