@@ -30,12 +30,23 @@
 	( make all up-to-date )
 
 11. Create new branch
-(after remote add origin)
-git checkout -b branchName
-git push origin branchName
+	(after remote add origin)
+	git checkout -b branchName
+	git push origin branchName
+	list all current branches ->
+		git branch
+	create new branch ->
+		git branch branch_name
+	merge branch ->
+	checkout one branch then ->
+		git merge another_branch_name
+
 
 12. Remove account from Git Bash
 	Credential Manager -> Windows Credential.
+
+13. Fork ->
+	make a new copy of a repository own by others and own youself.
 
 
 
